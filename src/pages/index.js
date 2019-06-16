@@ -10,7 +10,7 @@ import styles from "./index.module.css"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Section>
+    <Section className={styles.hero}>
       <h1>Dominik Rowicki.</h1>
       <p>A Front End Developer.</p>
       <p>Focused on simple UX and clean and functional code.</p>

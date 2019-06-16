@@ -1,4 +1,3 @@
-.section {
-  min-height: 80vh;
-  padding: calc((100% - 280px) / 2);
+.hero {
+  font-size: 1.5em;
 }
