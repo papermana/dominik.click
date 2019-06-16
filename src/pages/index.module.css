@@ -1,0 +1,4 @@
+.section {
+  min-height: 80vh;
+  padding: calc((100% - 280px) / 2);
+}
