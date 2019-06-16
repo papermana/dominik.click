@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Divider from "../components/divider"
 
 const IndexPage = () => (
   <Layout>
@@ -9,7 +10,7 @@ const IndexPage = () => (
     <h1>Dominik Rowicki.</h1>
     <p>A Front End Developer.</p>
     <p>Focused on simple UX and clean and functional code.</p>
-    <hr />
+    <Divider />
     <h2>❤︎s:</h2>
     <ul>
       <li>Javascript. (Yes!)</li>
@@ -20,7 +21,7 @@ const IndexPage = () => (
       <li>Git.</li>
       <li>Simplicity.</li>
     </ul>
-    <hr />
+    <Divider folded />
     <h2>Some useful things:</h2>
     <ul>
       <li>
