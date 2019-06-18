@@ -17,7 +17,7 @@ const IndexPage = () => (
     </Section>
     <Divider />
     <Section>
-      <h2>❤︎s:</h2>
+      <h2>❤︎s.</h2>
       <ul>
         <li>Javascript. (Yes!)</li>
         <li>React.</li>
@@ -30,7 +30,7 @@ const IndexPage = () => (
     </Section>
     <Divider folded />
     <Section>
-      <h2>Some useful things:</h2>
+      <h2>Some useful things.</h2>
       <ul>
         <li>
           <a href="https://github.com/papermana/react-modern-sticky">
