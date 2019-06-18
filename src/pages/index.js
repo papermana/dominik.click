@@ -43,6 +43,18 @@ const IndexPage = () => (
         </TextBlock>
       </ul>
     </Section>
+    <Divider folded />
+    <Section>
+      <h2>Places you can find Dominik.</h2>
+      <ul>
+        <TextBlock as="li">
+          <a href="https://github.com/papermana">GitHub</a>
+        </TextBlock>
+        <TextBlock as="li">
+          <a href="https://linkedin.com/in/dominik-r">LinkedIn</a>
+        </TextBlock>
+      </ul>
+    </Section>
   </Layout>
 )
 
