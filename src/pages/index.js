@@ -42,6 +42,12 @@ const IndexPage = () => (
           </ExternalLink>{" "}
           &mdash; Lightweight sticky component for the modern web.
         </TextBlock>
+        <TextBlock as="li">
+          <ExternalLink href="https://github.com/papermana/fixup-dog">
+            <code>fixup-dog</code>
+          </ExternalLink>{" "}
+          &mdash; A watchdog for fixup commits in your PRs!
+        </TextBlock>
       </ul>
     </Section>
     <Divider folded />
