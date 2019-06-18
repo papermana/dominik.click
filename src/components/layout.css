@@ -28,6 +28,7 @@
 
 html {
   font-family: "Space Grotesk", sans-serif;
+  /* The alternate "R" glyph: */
   font-feature-settings: "ss05";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
