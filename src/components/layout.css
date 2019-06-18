@@ -70,3 +70,7 @@ pre {
   /* Otherwise, code is going to take more space than non-code: */
   line-height: 1;
 }
+
+a {
+  color: inherit;
+}
