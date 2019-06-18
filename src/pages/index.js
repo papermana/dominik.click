@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Divider from "../components/divider"
 import Section from "../components/section"
 import TextBlock from "../components/textBlock"
+import ExternalLink from "../components/externalLink"
 
 import styles from "./index.module.css"
 
@@ -36,9 +37,9 @@ const IndexPage = () => (
       <h2>Some useful things.</h2>
       <ul>
         <TextBlock as="li">
-          <a href="https://github.com/papermana/react-modern-sticky">
+          <ExternalLink href="https://github.com/papermana/react-modern-sticky">
             <code>react-modern-sticky</code>
-          </a>{" "}
+          </ExternalLink>{" "}
           &mdash; Lightweight sticky component for the modern web.
         </TextBlock>
       </ul>
@@ -48,10 +49,14 @@ const IndexPage = () => (
       <h2>Places you can find Dominik.</h2>
       <ul>
         <TextBlock as="li">
-          <a href="https://github.com/papermana">GitHub</a>
+          <ExternalLink href="https://github.com/papermana">
+            GitHub
+          </ExternalLink>
         </TextBlock>
         <TextBlock as="li">
-          <a href="https://linkedin.com/in/dominik-r">LinkedIn</a>
+          <ExternalLink href="https://linkedin.com/in/dominik-r">
+            LinkedIn
+          </ExternalLink>
         </TextBlock>
       </ul>
     </Section>
