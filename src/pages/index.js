@@ -58,11 +58,13 @@ const IndexPage = () => (
           <ExternalLink href="https://github.com/papermana">
             GitHub
           </ExternalLink>
+          .
         </TextBlock>
         <TextBlock as="li">
           <ExternalLink href="https://linkedin.com/in/dominik-r">
             LinkedIn
           </ExternalLink>
+          .
         </TextBlock>
       </ul>
     </Section>
