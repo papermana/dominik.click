@@ -12,6 +12,12 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
 * {
   box-sizing: border-box;
   overflow: auto;
@@ -56,4 +62,11 @@ h2,
 p,
 li {
   margin: 2rem 0;
+}
+
+code,
+pre {
+  font-family: "Space Mono", monospace;
+  /* Otherwise, code is going to take more space than non-code: */
+  line-height: 1;
 }
