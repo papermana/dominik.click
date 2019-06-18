@@ -15,7 +15,9 @@ const IndexPage = () => (
     <Section className={styles.hero}>
       <h1>Dominik Rowicki.</h1>
       <TextBlock>A Front End Developer.</TextBlock>
-      <TextBlock>Focused on simple UX and clean and functional code.</TextBlock>
+      <TextBlock>
+        Lover of simple UX. Focused on clean and functional code.
+      </TextBlock>
     </Section>
     <Divider />
     <Section>
