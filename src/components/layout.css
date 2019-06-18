@@ -28,7 +28,18 @@ html {
   font-feature-settings: "ss05";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 16px;
+}
+
+@media (orientation: portrait) {
+  html {
+    font-size: 4vw;
+  }
+}
+
+@media (orientation: landscape) {
+  html {
+    font-size: 4vh;
+  }
 }
 
 body {
