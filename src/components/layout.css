@@ -60,7 +60,7 @@ ul {
 h1,
 h2,
 p,
-li {
+li:not(:first-child) {
   margin: 2rem 0;
 }
 
