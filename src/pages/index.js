@@ -55,6 +55,7 @@ const IndexPage = () => (
         </TextBlock>
       </ul>
     </Section>
+    <Divider />
   </Layout>
 )
 
