@@ -4,23 +4,23 @@
 }
 
 .strip:nth-child(1) {
-  background-color: green;
+  background-color: #ffef78;
 }
 
 .strip:nth-child(2) {
-  background-color: red;
+  background-color: #dd78ff;
 }
 
 .strip:nth-child(3) {
-  background-color: purple;
+  background-color: #7aff83;
 }
 
 .strip:nth-child(4) {
-  background-color: yellow;
+  background-color: #ff7c7a;
 }
 
 .strip:nth-child(5) {
-  background-color: teal;
+  background-color: #78b0ff;
 }
 
 .is-folded {
