@@ -11,7 +11,7 @@ import styles from "./index.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO />
     <Section className={styles.hero}>
       <h1>Dominik Rowicki.</h1>
       <TextBlock>A Front End Developer.</TextBlock>
