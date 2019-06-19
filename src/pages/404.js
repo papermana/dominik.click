@@ -2,12 +2,18 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Divider from "../components/divider"
+import Section from "../components/section"
+import TextBlock from "../components/textBlock"
 
 const NotFoundPage = () => (
   <Layout>
     <SEO />
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Section>
+      <h1>404.</h1>
+      <TextBlock>There is nothing here.</TextBlock>
+    </Section>
+    <Divider />
   </Layout>
 )
 
