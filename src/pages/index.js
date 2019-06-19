@@ -71,6 +71,7 @@ const IndexPage = () => (
       </ul>
     </Section>
     <Divider />
+    <Section className={styles.easterEgg}>:)</Section>
   </Layout>
 )
 
